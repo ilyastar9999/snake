@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake 5.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-body">
+        <div class="game-controls">
+            <div class="row">
+                <div>
+                    <h2>Score: <span id="game-score">0</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <button onclick="init(); this.style.display = 'none'">Начать игру</button>
+                <button onclick="window.location.reload()">Рестарт</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
